@@ -73,10 +73,20 @@ p {
     padding: 25px;
     border-radius: 10px;
     border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    color: rgb(0, 148, 0);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: auto;
+    padding-top: 20px;
 }
 
 .services article:hover {
-    transform: translateY(-3px);
+    transform: scale(1.07);
 }
 
 main a {
